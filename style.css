@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+main {
+  padding-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 64px;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 42px;
+}
+
+.wave {
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.destiny {
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+.texto {
+  width: 540px;
+  height: 107px;
+  margin-bottom: 32px;
+}
+
+.p-texto {
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.lastp {
+  margin-top: 32px;
+}
+
+.lista {
+  margin-top: 64px;
+
+}
+
+.lista a {
+  font-weight: bold;
+}
+
+
+.bold {
+  font-weight: 700;
+}
+
+.line {
+
+  width: 580px;
+  height: 0px;
+  border: 1px solid #00BFA6;
+
+}
